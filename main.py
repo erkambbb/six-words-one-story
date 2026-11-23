@@ -2,6 +2,7 @@
 from pathlib import Path
 
 STORY = "She forgot me. I proposed again."
+assert len(STORY.split()) == 6, "story must be exactly six words"
 
 out = Path("/output")
 out.mkdir(parents=True, exist_ok=True)

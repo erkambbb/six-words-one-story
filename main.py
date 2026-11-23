@@ -1,4 +1,4 @@
-"""Six Words, One Story: writes the entry to /output/entry.txt."""
+"""Six Words, One Story: writes the six-word entry to /output/entry.txt."""
 from pathlib import Path
 
 STORY = "She forgot me. I proposed again."
